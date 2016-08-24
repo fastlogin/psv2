@@ -11,17 +11,30 @@ a:hover{
 	color: inherit;
 }
 
-
 .row-centered {
     text-align:center;
 }
+
 .col-centered {
     display:inline-block;
     float:none;
 }
 
-.header-top {
+.css-header {
 	text-align: left;
-	height: 200px;
-	background-color: red;
+	height: 240px;
 }
+
+.css-header-content {
+	font-family: Roboto;
+	font-size: 50px;
+	font-weight: 700;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.css-cursor {
+	font-family: Open Sans;
+}
+
