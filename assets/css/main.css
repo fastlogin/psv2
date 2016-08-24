@@ -19,3 +19,9 @@ a:hover{
     display:inline-block;
     float:none;
 }
+
+.header-top {
+	text-align: left;
+	height: 200px;
+	background-color: red;
+}
