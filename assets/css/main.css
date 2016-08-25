@@ -5,13 +5,12 @@ body {
 	margin: 0;
 }
 
-a {
-	color: inherit;
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 a:hover{
 	text-decoration: none;
-	color: inherit;
 }
 
 /**
@@ -58,6 +57,7 @@ a:hover{
 	background: linear-gradient(35deg, #c1ffef, #ffe8ba, #ffd3c9, #fffeca, #c4ffc3);
 	background-size: 1000% 1000%;
 	min-width: 420px;
+	margin-bottom: 60px;
 
 	-webkit-animation: HeaderGradient 13s ease infinite;
 	-moz-animation: HeaderGradient 13s ease infinite;
@@ -66,8 +66,8 @@ a:hover{
 }
 
 .css-header-content {
-	font-family: Roboto;
-	font-size: 50px;
+	font-family: Open Sans;
+	font-size: 48px;
 	font-weight: 700;
 	color: black;
 	padding: 5px;
@@ -83,5 +83,62 @@ a:hover{
 .css-cursor {
 	font-family: Open Sans;
 	color: rgb(255, 153, 51);
+}
+
+.css-cloud {
+	top: 4px;
+	color: rgb(0, 184, 230);
+}
+
+.css-descriptor {
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	padding: 0;
+	margin-bottom: 60px;
+	padding: 5px;
+}
+
+.css-languages {
+	text-align: left;
+	display: none;
+}
+
+.css-languages-active {
+	display: block;
+}
+
+.hljs {
+    min-width: 500px;
+}
+
+.css-codebox {
+	background-color: rgb(35,36,31);
+}
+
+.css-language-button-group {
+	text-align: left;
+}
+
+.css-language-buttons {
+	color: white;
+	background-color: rgb(35,36,31);
+}
+
+.css-about-me {
+	font-size: 24px;
+	font-family: Roboto;
+	margin-bottom: 10px;
+}
+
+.css-all-about-me {
+	margin-bottom: 60px;
+}
+
+.css-activity-text {
+	font-size: 40px;
+	font-family: Roboto;
+	font-weight: 700;
+	display: none;
 }
 

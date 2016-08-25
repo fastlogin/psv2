@@ -7,6 +7,7 @@
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <!--CSS-->
+    <link rel="stylesheet" href="assets/css/monokai-sublime.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <!--GOOGLE FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,400|Roboto:400,700" rel="stylesheet">
@@ -14,11 +15,113 @@
 <body>
     <div class="container-fluid">
         <div class="row row-centered">
-            <div class="col-md-4 col-centered css-header">
+            <div class="col-md-5 col-centered css-header">
                 <div class="css-header-content">
                     <span class="glyphicon glyphicon-console css-console"></span> Hey I'm George.<span class='css-cursor css-blink js-blink'>|</span>
                 </div>
             </div>
+        </div>
+        <div class="row row-centered">
+            <div class="col-md-3 col-centered css-descriptor">
+                <div>
+                    I am a student and software developer with my head and website in the <span class="glyphicon glyphicon-cloud css-cloud"></span>. Here are my favorite languages.
+                </div>
+            </div>
+        </div>
+        <hr width = "50%">
+        <div class="row row-centered css-all-about-me">
+            <div class="col-xs-5 col-centered">
+                <div class="css-about-me js-about-me">
+                    AboutMe.java
+                </div>
+                <div class="css-language-button-group">
+                    <button class="btn btn-default css-language-buttons js-java-button" >Java</button>
+                    <button class="btn btn-default css-language-buttons js-ruby-button" >Ruby</button>
+                    <button class="btn btn-default css-language-buttons js-python-button" >Python</button>
+                </div>
+                <div class="css-languages js-languages js-java">
+                    <pre class="css-codebox">
+                        <code class="java">
+public class AboutMe {
+    /**
+     * Computer science is dope. I like to build apps and develop
+     * software in new and smart ways. I like to think about implementing
+     * algorithms, crunching big data in the cloud, service architecture,
+     * and building apps that work. Recently I've been closely following
+     * the trend of microservices which is really exciting in terms of
+     * how it makes us think about the way we architect our applications.
+     * When I am not thinking about computer science I enjoy hitting
+     * the gym and playing videogames. New York City is the best city
+     * but California weather is unbeatable.
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World.");
+    }
+}
+                        </code>
+                    </pre>
+                </div>
+                <div class="css-languages js-languages js-ruby">
+                    <pre class="css-codebox">
+                        <code class="ruby">
+class AboutMe
+    # Computer science is dope. I like to build apps and develop
+    # software in new and smart ways. I like to think about implementing
+    # algorithms, crunching big data in the cloud, service architecture,
+    # and building apps that work. Recently I've been closely following
+    # the trend of microservices which is really exciting in terms of
+    # how it makes us think about the way we architect our applications.
+    # When I am not thinking about computer science I enjoy hitting
+    # the gym and playing videogames. New York City is the best city
+    # but California weather is unbeatable.
+    def initialize(first_name, last_name)
+        @first_name = first_name
+        @last_name = last_name
+    end
+
+    def helloWorld
+        puts "Hello World."
+    end
+end
+
+georgeDing = AboutMe.new('George', 'Ding')
+georgeDing.helloWorld
+                        </code>
+                    </pre>
+                </div>
+                <div class="css-languages js-languages js-python">
+                    <pre class="css-codebox">
+                        <code class="python">
+class AboutMe:
+    # Computer science is dope. I like to build apps and develop
+    # software in new and smart ways. I like to think about implementing
+    # algorithms, crunching big data in the cloud, service architecture,
+    # and building apps that work. Recently I've been closely following
+    # the trend of microservices which is really exciting in terms of
+    # how it makes us think about the way we architect our applications.
+    # When I am not thinking about computer science I enjoy hitting
+    # the gym and playing videogames. New York City is the best city
+    # but California weather is unbeatable.
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+
+    def helloWorld(self):
+        print "Hello World."
+
+georgeDing = AboutMe('George', 'Ding')
+georgeDing.helloWorld()
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+        <hr width = "50%">
+        <div class='row row-centered'>
+            <a class="js-reading-button" href="javascript:;"><i class="fa fa-book fa-5x" aria-hidden="true"></i></a><span class="css-activity-text js-reading-text"> Currently Reading</span>
+        </div>
+        <div class='row row-centered'>
+            <a class="js-gaming-button" href="javascript:;"><i class="fa fa-gamepad fa-5x" aria-hidden="true"></i></a><span class="css-activity-text js-gaming-text"> Currently Playing</span>
         </div>
     </div>
 </body>
@@ -28,4 +131,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!--JS-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/highlight.pack.js"></script>
+    <script src="https://use.fontawesome.com/aa5975269b.js"></script>
 </html>
