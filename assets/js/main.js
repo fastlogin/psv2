@@ -28,10 +28,15 @@ $(document).ready(function(){
 
 	hljs.initHighlightingOnLoad();
 
-	java_code_box.toggleClass("css-languages-active");
+	java_code_box.toggleClass("css-languages-active"); // Init page with java code box
 	current_language = java_code_box;
 	setInterval(function(){content_blink(header_cursor);}, 420);
 
+	/**
+	 * Button functions to switch languages for code box about me
+	 *
+	 * TODO: Add JavaScript box 
+	 */
 	java_code_button.click(function(){
 		if (current_language == java_code_box) {
 			return;
@@ -61,13 +66,4 @@ $(document).ready(function(){
 		current_language = python_code_box;
 		about_me.html("AboutMe.py");
 	})
-
-	reading_button.click(function(){
-		reading_text.toggle("slide");
-	})
-
-	gaming_button.click(function(){
-		gaming_text.toggle("slide");
-	})
-
 })
