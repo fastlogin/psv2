@@ -20,10 +20,6 @@ $(document).ready(function(){
 	var ruby_code_button = doc.find(".js-ruby-button");
 	var python_code_box = doc.find(".js-python");
 	var python_code_button = doc.find(".js-python-button");
-	var reading_button = doc.find(".js-reading-button");
-	var gaming_button = doc.find(".js-gaming-button");
-	var reading_text = doc.find(".js-reading-text");
-	var gaming_text = doc.find(".js-gaming-text");
 	var current_language;
 
 	hljs.initHighlightingOnLoad();

@@ -14,6 +14,22 @@ a:hover{
 }
 
 /**
+ * Hover Classes
+ */
+.point-seven-hover:hover {
+	opacity: 0.7;
+}
+
+.point-six-hover:hover {
+	opacity: 0.6;
+}
+
+.point-five-hover:hover {
+	opacity: 0.5;
+}
+
+
+/**
  * Custom Bootstrap grid classes.
  */
 .row-centered {
@@ -23,6 +39,7 @@ a:hover{
 .col-centered {
     display:inline-block;
     float:none;
+    vertical-align: top;
 }
 
 /**
@@ -127,7 +144,7 @@ a:hover{
 
 .css-about-me {
 	font-size: 24px;
-	font-family: Roboto;
+	font-family: Open Sans;
 	margin-bottom: 10px;
 }
 
@@ -135,9 +152,74 @@ a:hover{
 	margin-bottom: 60px;
 }
 
-.css-activity-text {
-	font-size: 40px;
+.css-experience-title {
+	font-size: 24px;
+	font-family: Open Sans;
+	margin-bottom: 20px;
+}
+
+.css-job-description {
+	text-align: left;
 	font-family: Roboto;
+}
+
+.css-role {
 	font-weight: 700;
+	color: rgb(0, 150, 200);;
+}
+
+.css-job-title {
+	text-align: left;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: Open Sans;
+}
+
+.css-jobs {
+	margin-bottom: 45px;
+}
+
+.css-job-img {
+	margin-bottom: 20px;
+}
+.css-job-links {
+	font-weight: 700;
+}
+
+.css-activity-text {
+	font-size: 24px;
+	font-family: Open Sans;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.css-activity-group {
+	margin-bottom: 50px;
+}
+
+.css-activity-icon {
+	margin-bottom: 25px;
+}
+
+.css-old-music {
+	color: rgb(0, 150, 200);
+	font-weight: 700;
+}
+
+.css-new-music {
+	color: rgb(60, 180, 60);
+	font-weight: 700;
+}
+
+.css-music-summary {
+	text-align: left;
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+.css-music-extlinks {
+	margin-top: 15px;
+	text-align: center;
+	color: rgb(60, 180, 60);
 }
 
