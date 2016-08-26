@@ -113,7 +113,7 @@ a:hover{
 	text-align: left;
 	padding: 0;
 	margin-bottom: 60px;
-	padding: 5px;
+	padding: 15px;
 }
 
 .css-languages {
@@ -223,3 +223,71 @@ a:hover{
 	color: rgb(60, 180, 60);
 }
 
+.css-project-title {
+	font-size: 24px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.css-project-list {
+	text-align: left;
+}
+
+.css-projects-list {
+	font-family: Roboto;
+}
+
+.css-project-link {
+	color: rgb(0, 150, 200);
+	font-weight: 700;
+}
+
+.css-footer {
+	margin-top: 100px;
+	font-size: 18px;
+	height: 200px;
+	padding: 60px;
+
+	background: linear-gradient(35deg, #c1ffef, #ffe8ba, #ffd3c9, #fffeca, #c4ffc3);
+	background-size: 1000% 1000%;
+
+	-webkit-animation: HeaderGradient 13s ease infinite;
+	-moz-animation: HeaderGradient 13s ease infinite;
+	-o-animation: HeaderGradient 13s ease infinite;
+	animation: HeaderGradient 13s ease infinite;
+}
+
+.css-contact-icon {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.css-github-ico {
+	color: black;
+}
+
+.css-fb-ico {
+	color: rgb(59,89,152);
+}
+
+.css-linkedin-ico {
+	color: rgb(0,119,181);
+}
+
+.css-spotify-ico {
+	color: rgb(60, 180, 60);
+}
+
+/**
+ * Responsive stuff
+ */
+@media (max-width: 768px){
+	.css-header {
+		width: 100%;
+		min-width: 0%;
+	}
+
+	.css-language-box {
+		width: 100%;
+	}
+}

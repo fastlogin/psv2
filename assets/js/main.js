@@ -20,6 +20,8 @@ $(document).ready(function(){
 	var ruby_code_button = doc.find(".js-ruby-button");
 	var python_code_box = doc.find(".js-python");
 	var python_code_button = doc.find(".js-python-button");
+	var js_code_box = doc.find(".js-js");
+	var js_code_button = doc.find(".js-js-button");
 	var current_language;
 
 	hljs.initHighlightingOnLoad();
@@ -61,5 +63,15 @@ $(document).ready(function(){
 		python_code_box.toggleClass("css-languages-active");
 		current_language = python_code_box;
 		about_me.html("AboutMe.py");
+	})
+
+	js_code_button.click(function(){
+		if (current_language == js_code_box) {
+			return;
+		}
+		current_language.toggleClass("css-languages-active");
+		js_code_box.toggleClass("css-languages-active");
+		current_language = js_code_box;
+		about_me.html("AboutMe.js");
 	})
 })

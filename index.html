@@ -22,15 +22,15 @@
             </div>
         </div>
         <div class="row row-centered">
-            <div class="col-md-3 col-centered css-descriptor">
+            <div class="col-sm-3 col-centered css-descriptor">
                 <div>
-                    I am a student and software developer with my head and website in the <span class="glyphicon glyphicon-cloud css-cloud"></span>. Here are my favorite languages.
+                    I am a student and software developer with my website and head in the <span class="glyphicon glyphicon-cloud css-cloud"></span>. Here are my favorite languages.
                 </div>
             </div>
         </div>
         <hr width = "50%">
         <div class="row row-centered css-all-about-me">
-            <div class="col-xs-5 col-centered">
+            <div class="col-xs-5 col-centered css-language-box">
                 <div class="css-about-me js-about-me">
                     AboutMe.java
                 </div>
@@ -38,6 +38,7 @@
                     <button class="btn btn-default css-language-buttons js-java-button" >Java</button>
                     <button class="btn btn-default css-language-buttons js-ruby-button" >Ruby</button>
                     <button class="btn btn-default css-language-buttons js-python-button" >Python</button>
+                    <button class="btn btn-default css-language-buttons js-js-button" >JavaScript</button>
                 </div>
                 <div class="css-languages js-languages js-java">
                     <pre class="css-codebox">
@@ -111,6 +112,36 @@ class AboutMe:
 
 georgeDing = AboutMe('George', 'Ding')
 georgeDing.helloWorld()
+                        </code>
+                    </pre>
+                </div>
+                <div class="css-languages js-languages js-js">
+                    <pre class="css-codebox">
+                        <code class="javascript">
+class AboutMe {
+    /**
+     * Computer science is dope. I like to build apps and develop
+     * software in new and smart ways. I like to think about implementing
+     * algorithms, crunching big data in the cloud, service architecture,
+     * and building apps that work. Recently I've been closely following
+     * the trend of microservices which is really exciting in terms of
+     * how it makes us think about the way we architect our applications.
+     * When I am not thinking about computer science I enjoy hitting
+     * the gym and playing videogames. New York City is the best city
+     * but California weather is unbeatable.
+     */
+    constructor(first_name, last_name) {
+        this.first_name = first_name;
+        this.last_name = last_name;
+    }
+
+    helloWorld() {
+        console.log("Hello World");
+    }
+}
+
+var georgeDing = new AboutMe('George', 'Ding');
+georgeDing.helloWorld();
                         </code>
                     </pre>
                 </div>
@@ -210,6 +241,29 @@ georgeDing.helloWorld()
                 <div class="css-music-extlinks point-seven-hover">
                     <a target='_blank' href="https://open.spotify.com/user/1234937263"><i class="fa fa-spotify fa-5x" aria-hidden="true"></i></a>
                 </div>
+            </div>
+        </div>
+        <hr width="50%">
+        <div class="row row-centered">
+            <div class="css-project-title">
+                My Projects
+            </div>
+            <div class="col-md-4 col-centered css-project-list">
+            <ul class="css-projects-list">
+                <li><a target='_blank' href=""><span class="css-project-link point-seven-hover">FunnyLoL</span></a> - Match crawling SPA for Riot's League of Legends. Displays funny matches.</li>
+                <li><a target='_blank' href=""><span class="css-project-link point-seven-hover">MalJson</span></a> - Convert's MyAnimeList's prettified XML response for retrieving users' lists into JSONs for easy manipulation in your JavaScript code.</li>
+                <li><a target='_blank' href="https://github.com/mdsol/plucker"><span class="css-project-link point-seven-hover">plucker</span></a> - Ruby gem that simulates code coverage for Cucumber testing environments when changing step definition code. Uses the greedy interval scheduling algorithm.</li>
+                <li><a target='_blank' href="http://devpost.com/software/busme"><span class="css-project-link point-seven-hover">Busme</span></a> - Bus app for the Ithaca-Tompkins area powered by Node that scrapes data from the TCAT website.</li>
+                <li><a target='_blank' href="https://github.com/fastlogin/CSAWebApp"><span class="css-project-link point-seven-hover">Cornell CSA</span></a> - Full-stack web application for the Cornell Chinese Students Association written in JavaScript end-to-end.</li>
+            </ul>
+            </div>
+        </div>
+        <div class="row row-centered css-footer">
+            <div>
+                Copyright &#169; George Ding 2016
+            </div>
+            <div>
+                <a target='_blank' href="https://github.com/fastlogin"><i class="fa fa-github fa-3x css-github-ico point-six-hover" aria-hidden="true"></i></a><a target='_blank' href="https://www.facebook.com/"><i class="fa fa-facebook-official fa-3x css-contact-icon css-fb-ico point-six-hover" aria-hidden="true"></i></a><a target='_blank' href="https://www.linkedin.com/in/georgeding1"><i class="fa fa-linkedin-square fa-3x css-contact-icon css-linkedin-ico point-six-hover" aria-hidden="true"></i></a><a target='_blank' href="https://open.spotify.com/user/1234937263"><i class="fa fa-spotify fa-3x css-contact-icon css-spotify-ico point-six-hover" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
