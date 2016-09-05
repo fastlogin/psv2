@@ -278,6 +278,10 @@ a:hover{
 	color: rgb(60, 180, 60);
 }
 
+.css-file-ico {
+	color: orange;
+}
+
 /**
  * Responsive stuff
  */
